@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai Kopi Nusantara - Nikmati Kopi Terbaik</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+        header { background-color: #8B4513; color: white; padding: 20px; text-align: center; }
+        .hero { background-image: url('https://source.unsplash.com/featured/?coffee'); background-size: cover; height: 400px; display: flex; align-items: center; justify-content: center; text-align: center; color: white; }
+        .hero h1 { font-size: 3em; margin: 0; }
+        .hero p { font-size: 1.5em; }
+        section { padding: 50px; text-align: center; }
+        .menu { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .menu-item { width: 200px; margin: 20px; }
+        .menu-item img { width: 100%; height: 150px; object-fit: cover; }
+        footer { background-color: #333; color: white; padding: 20px; text-align: center; }
+        button { background-color: #8B4513; color: white; border: none; padding: 10px 20px; cursor: pointer; }
+        button:hover { background-color: #654321; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kedai Kopi Nusantara</h1>
+        <nav>
+            <a href="#about" style="color: white; margin: 0 10px;">Tentang Kami</a>
+            <a href="#menu" style="color: white; margin: 0 10px;">Menu</a>
+            <a href="#contact" style="color: white; margin: 0 10px;">Kontak</a>
+        </nav>
+    </header>
 
+    <section class="hero">
+        <div>
+            <h1>Selamat Datang di Kedai Kopi Nusantara</h1>
+            <p>Nikmati aroma kopi terbaik dari biji pilihan Nusantara. Tempat yang sempurna untuk bersantai dan berkumpul.</p>
+            <button onclick="alert('Pesan sekarang!')">Pesan Sekarang</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Kedai Kopi Nusantara adalah tempat di mana tradisi kopi Indonesia bertemu dengan suasana modern. Kami menggunakan biji kopi lokal berkualitas tinggi, dipanggang segar setiap hari, untuk memberikan pengalaman minum kopi yang tak terlupakan. Bergabunglah dengan komunitas pecinta kopi kami!</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu Unggulan</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <img src="https://source.unsplash.com/featured/?espresso" alt="Espresso">
+                <h3>Espresso Klasik</h3>
+                <p>Rp 25.000 - Kopi hitam pekat dengan rasa autentik.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://source.unsplash.com/featured/?latte" alt="Latte">
+                <h3>Latte Art</h3>
+                <p>Rp 35.000 - Kombinasi espresso dan susu dengan seni latte.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://source.unsplash.com/featured/?cappuccino" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Rp 30.000 - Espresso dengan busa susu yang lembut.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimoni Pelanggan</h2>
+        <p>"Kopi terbaik yang pernah saya coba! Suasana kedai sangat nyaman." - Ani, Jakarta</p>
+        <p>"Pelayanan ramah dan kopi selalu fresh. Saya jadi langganan!" - Budi, Bandung</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Alamat: Jl. Kopi No. 123, Jakarta Pusat</p>
+        <p>Telepon: 0812-3456-7890</p>
+        <p>Email: info@kedainusantara.com</p>
+        <button onclick="alert('hyu mabar epep!')">Hubungi Sekarang</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Kedai Kopi Nusantara. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
